@@ -3,5 +3,4 @@ services:
     name: mobile-security-framework
     env: docker
     buildCommand: "docker build -t mobile-security-framework ."
-    startCommand: "docker run -p 80:80 mobile-security-framework"
     plan: free
